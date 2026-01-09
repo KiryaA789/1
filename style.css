@@ -8,7 +8,7 @@ body {
 
 }
 .title {
-  color: green;
+  color: #FF0000;
   font-size: 40px;
   font-family: Arial, sans-serif;
   text-aling: center;
@@ -39,7 +39,7 @@ body {
 .bnt {
   background-color: #007bff;
   color: #fff;
-  padding: 12px 24px;
+  padding: 24px 36px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -48,10 +48,10 @@ body {
   margin-top: 20px;
 }
 .bnt:hover {
-  background-color: #0056b3;
+  background-color: #FF0000;
 }
 .bnt:active {
-  transform: scale(0.97);
+  transform: scale(0.80);
 }
 .bnt:focus {
   outline: none;
