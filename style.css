@@ -88,6 +88,7 @@ body {
   .btn {
     width: 100%;
     text-aling: center;
+    margin-left: 200px;
   }
   .ava {
   widht: 120px;
@@ -100,5 +101,6 @@ body {
   .note {
     font-size: 24px;
     line-height: 1.6;
+ 
   }
 }
