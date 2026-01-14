@@ -80,32 +80,36 @@ body {
 }
 
 @media (max-width: 768px) {
-  .body {
+  .container {
     max-width: 100%;
     padding-left: 16px;
     padding-right: 16px;
   }
+  .titlt {
+    front-size: 46px;
+  }
+  .subtitle: {
+    front-size: 24px;
+  }
+  . 
   .sec-tit {
     font-size: 36px;
   }
   .text {
     font-size: 24px;
+  }
   .btn {
     width: 100%;
     text-aling: center;
-    display: line-block;
+    display: inline-block;
     margin-top: 20px;
   }
   .ava {
   widht: 120px;
   height: 120px;
   }
-  .titlt {
-    front-size: 46px;
-  }
-  .subtitle: {
-    front-size: 36px;
-  }
+  
+
   .text, 
   .note {
     font-size: 24px;
