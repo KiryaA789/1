@@ -16,11 +16,11 @@ body {
 
 .hero {
   background-color: var(--color-bg);
-  padding: 80px 0;
+  padding: 10px 0;
 }
 .container {
   max-width: 900px;
-  margin: 0;
+  margin: ;
 }
 
 .about {
@@ -31,10 +31,9 @@ body {
   font-size: 40px;
   font-family: Arial, sans-serif;
   text-aling: center;
-  margin: 40px;
+  
 }
 .subtitle {
-  margin: 40px;
 }  
 .sec-tit {
   font-size: 32px;
@@ -59,7 +58,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s, transform 0.1s;
-  margin-left: 400px;
+  margin-left: 450px;
 }
 .btn:hover {
   background-color: #1d4ed8;
