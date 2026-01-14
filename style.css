@@ -103,6 +103,9 @@ body {
   .titlt {
     front-size: 46px;
   }
+  .subtitle: {
+    front-size: 36px;
+  }
   .text, 
   .note {
     font-size: 24px;
