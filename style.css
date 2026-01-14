@@ -72,11 +72,13 @@ body {
 }
 
 .ava {
+  display: block;
   widht: 160px;
   height: 160px;
   border-radius: 50%;
   odject-fit: cover;
   margin-bottom: 20px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 768px) {
@@ -92,12 +94,12 @@ body {
   .hero .container {
     display: flex;
     flex-direction: column;
-    aling-items: stretch;
+    aling-items: flex-start;
   }
   .ava {
     widht: 150px;
     height: 150px;
-    margin-bottom: 16px;
+    margin-bottom: 16px; 
   }
   .titlt {
     front-size: 46px;
@@ -107,13 +109,13 @@ body {
   .note {
     font-size: 24px;
     line-height: 1.6;
-    max-width: 100%;
-    width: 100%;
+    max-width: 34ch;
     text-aling: left;
   }
   .btn {
     display: inline-block;
-    margin-top: 20px;
+    margin-left: 0;
+    aling-self: flex-start;
   }
   .sec-tit {
     font-size: 30px;
