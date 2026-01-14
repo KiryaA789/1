@@ -83,37 +83,37 @@ body {
   body {
     margin 0;
   }
-  .hero .container {
-    display: flex;
-    flex-direction: column;
-    aling-items: flex-start:
-  }
   .container {
     max-width: 100%;
     padding-left: 16px;
     padding-right: 16px;
   }
+  /* HERO */
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+    aling-items: flex-start;
+  }
+  .ava {
+    widht: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+  }
   .titlt {
     front-size: 46px;
   }
-  .sec-tit {
-    font-size: 36px;
-  }
-  .text, 
-  .note,
-  .subtitle {
+  .subtitle, 
+  .text,
+  .note {
     font-size: 24px;
     line-height: 1.6;
     max-wudth: 100%;
   }
   .btn {
     display: inline-block;
-    width: auto;
     margin-top: 20px;
   }
-  .ava {
-  widht: 150px;
-  height: 150px;
-    margin-bottom: 16px;
+  .sec-tit {
+    font-size: 30px;
   }
 }
