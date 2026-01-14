@@ -80,6 +80,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    margin 0;
+  .hero .container {
+    display: block;
+  }
   .container {
     max-width: 100%;
     padding-left: 16px;
@@ -88,30 +93,27 @@ body {
   .titlt {
     front-size: 46px;
   }
-  .subtitle: {
-    front-size: 24px;
-  }
-  . 
   .sec-tit {
     font-size: 36px;
   }
-  .text {
+  .text, 
+  .note,
+  .subtitle {
     font-size: 24px;
+    line-height: 1.6;
   }
   .btn {
     display: inline-block;
+    width: auto;
     margin-top: 20px;
   }
   .ava {
   widht: 120px;
   height: 120px;
+    margin-bottom: 16px;
   }
   
 
-  .text, 
-  .note {
-    font-size: 24px;
-    line-height: 1.6;
  
   }
 }
