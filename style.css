@@ -107,7 +107,7 @@ body {
   .note {
     font-size: 24px;
     line-height: 1.6;
-    max-wudth: 100%;
+    max-width: 100%;
   }
   .btn {
     display: inline-block;
