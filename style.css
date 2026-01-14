@@ -80,6 +80,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  .hero .container {
+    display: flex;
+    flex-direction: column:
+    aling-items: right:
+  }
   .sec-tit {
     font-size: 36px;
   }
